@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Card</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="media.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div id="container">
+           <div class="card">
+               <picture class="card-img">
+                   <source srcset="img/avatar_desktop.webp" media="(min-width: 1024px)">
+                   <img src="img/avatar_mobile.png" alt="Cool caterpillar">
+                   <img class="cat" src="img/cat.webp" alt="Fak">
+               </picture>
+               <div class="card-info">
+                   <h1 class="card-name">Beebra</h1>
+                   <h2 class="card-position">Lorem</h2>
+                   <div class="card-social">
+                        <a href="http://instagram.com/misikovich" class="card-social__icon" target="blank">
+                            <svg>
+                                <use xlink:href="sprite.svg#instagram"/>
+                            </svg>
+                            <span>misikovich</span>
+                        </a>
+                        <a href="https://t.me/misikovich" class="card-social__icon" target="blank">
+                            <svg>
+                                <use xlink:href="sprite.svg#telegram"/>
+                            </svg>
+                            <span>misikovich</span>
+                        </a>
+                        <a href="https://natribu.org/ua/" class="card-social__icon" target="blank">
+                            <svg>
+                                <use xlink:href="sprite.svg#linkedin"/>
+                            </svg>
+                            <span>misikovich</span>
+                        </a>
+                        <a href="tel:+beruvrot" class="card-social__icon"  target="blank">
+                        <svg>
+                                <use xlink:href="sprite.svg#phone"/>
+                            </svg>
+                            <span>+35794059023</span>
+                        </a>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </body>
+</html>
